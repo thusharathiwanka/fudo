@@ -1,0 +1,67 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+}
+
+.logo {
+	display: flex;
+	flex: 1;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 0.5rem;
+	z-index: 99;
+}
+
+.logo > span {
+	font-size: 1.5rem;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.nav {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	gap: 2rem;
+	z-index: 99;
+}
+
+.nav > li {
+	cursor: pointer;
+}
+
+.nav > li:hover {
+	color: var(--themeRed);
+}
+
+.cartWrapper {
+	flex: 1;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.cart {
+	position: relative;
+	z-index: 99;
+	cursor: pointer;
+	position: relative;
+}
+
+.badge {
+	position: absolute;
+	top: -0.5rem;
+	right: -0.8rem;
+	background-color: var(--themeRed);
+	color: white;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+}
