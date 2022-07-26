@@ -15,10 +15,18 @@ const Footer = () => {
 			</div>
 			<p className={headerStyle.copyright}>All Rights Reserved &copy;</p>
 			<div className={style.social}>
-				<UilFacebook size={25} color="#2E2E2E" />
-				<UilInstagram size={25} color="#2E2E2E" />
-				<UilTwitter size={25} color="#2E2E2E" />
-				<UilYoutube size={25} color="#2E2E2E" />
+				<a href="https://facebook.com" target="_blank" rel="noreferrer">
+					<UilFacebook size={22} color="#2E2E2E" />
+				</a>
+				<a href="https://instagram.com" target="_blank" rel="noreferrer">
+					<UilInstagram size={22} color="#2E2E2E" />
+				</a>
+				<a href="https://twitter.com" target="_blank" rel="noreferrer">
+					<UilTwitter size={22} color="#2E2E2E" />
+				</a>
+				<a href="https://youtube.com" target="_blank" rel="noreferrer">
+					<UilYoutube size={22} color="#2E2E2E" />
+				</a>
 			</div>
 		</div>
 	);
