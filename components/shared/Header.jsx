@@ -19,7 +19,7 @@ const Header = () => {
 			</ul>
 			<div className={style.cartWrapper}>
 				<div className={style.cart}>
-					<UilShoppingBag size={35} color="#2E2E2E" />
+					<UilShoppingBag size={30} color="#2E2E2E" />
 					<div className={style.badge}>0</div>
 				</div>
 			</div>
